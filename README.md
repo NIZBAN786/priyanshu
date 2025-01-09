@@ -27,7 +27,7 @@ int add()
 	return(num1+num2);
 }
 ```
-```
+```c
 #include<stdio.h>
 
 void main()
