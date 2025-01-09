@@ -27,3 +27,23 @@ int add()
 	return(num1+num2);
 }
 ```
+```
+#include<stdio.h>
+
+void main()
+{
+
+	typedef float decimal;
+
+	decimal totalcost = 650 , quantity = 7 , costitem;
+
+	clrscr();
+
+	costitem = totalcost/quantity;
+
+	printf("Cost Item is :\t %f",costitem);
+
+	getch();
+
+}
+```
